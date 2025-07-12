@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.mc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+    height: 100px;
+}
+.profile{
+    padding: 10px;
+    display: flex;
+    background: white;
+    width: auto;
+    margin-left: 10px;
+    border-radius: 12px;
+    border: solid 3px #0051ff97;
+}
+.profile>img{
+    object-fit: cover;
+    width: 70px;
+    border-radius: 12px;
+}
+.profile>h2{
+    padding-left: 10px;
+    color: #242424;
+}
+.txt{
+    color: #242424; 
+}
+.txt>h2{
+    padding-left: 10px;
+    font-weight: 450;
+}
+.txt>a{
+    font-size: 13px;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight:450;
+}
+.currentWeather{
+    padding: 10px;
+    display: flex;
+    align-items:center;
+     /* margin: auto; */
+    /* margin-bottom: 10px;  */
+    background-color: white;
+    width: 40%;
+    color: #242424;
+    border-radius: 12px;
+    border: solid 3px #0051ff97;
+}
+.currentWeather>img{
+    margin-bottom: 10px;
+    
+}
+.container{
+    width: 90%;
+    max-width: 470px;
+    background-color: #0080ffdd;
+    color: whitesmoke;
+    margin: 100px auto 0;
+    border-radius: 12px;
+    padding: 40px 35px;
+    text-align: center;
+    border: solid 5px #0051ff;
+}
+input{
+    font-size: 18px;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 3px #0051ff97;
+
+}
+input:focus{
+    border:1px solid black
+}
+
+
+#heading{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 50px;
+}
+#logo{
+  display: block;
+  margin: auto;
+  width: 35%;
+  flex-grow: 6;
+
+}
+button{
+    background-color:#FFEF00;
+    width: 50%;
+    padding:0.5rem;
+    font-size: 25px;
+    border: solid 3px #b3c700;
+    border-radius: 12px;
+    margin-top:10px;
+    font-weight:400;
+}
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+    background-color:#FFBF00 ;
+
+}
+.weatherTemparature{
+    color: #242424;
+    padding: 10px;
+    display: flex;
+    background-color:white;
+    width: 50%;
+    margin: auto;
+    margin-top:10px;
+    border-radius: 12px;
+}
+
+.weatherTemparature>p{
+    margin:auto;
+    font-size: 12px;
+}
+.weatherMeme{
+    margin-top:10px;
+
+}
+.weatherMeme>img{
+    margin: auto;
+    width: 300px;
+    border-radius: 12px;
+    border: 4px solid white;
+}
+
+.footer>p{
+    margin: 5px;
+    font-size: 10px;
+}
