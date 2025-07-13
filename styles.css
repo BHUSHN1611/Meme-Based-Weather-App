@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mc{
     width: 100%;
     display: flex;
@@ -55,7 +60,6 @@
     border-radius: 12px;
     border: solid 3px #0051ff97;
 }
-
 .temperature>img{
     object-fit: cover;
     width: 35px;
@@ -134,8 +138,9 @@ button:active{
 
 }
 .weatherMeme>img{
+    object-fit: cover;
     margin: auto;
-    width: 300px;
+    width: 250px;
     border-radius: 12px;
     border: 4px solid white;
 }
