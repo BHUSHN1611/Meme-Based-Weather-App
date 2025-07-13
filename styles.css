@@ -44,16 +44,19 @@
     font-weight:450;
 }
 .currentWeather{
-    padding: 10px;
+    /* padding: 10px; */
     /* display: flex; */
     align-items:center;
-     /* margin: auto; */
+     margin: auto;
     /* margin-bottom: 10px;  */
     background-color: white;
     width: 40%;
     color: #242424;
     border-radius: 12px;
     border: solid 3px #0051ff97;
+}
+.temperature{
+    /* padding: 5px; */
 }
 .temperature>img{
     object-fit: cover;
