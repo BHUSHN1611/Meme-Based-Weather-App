@@ -55,9 +55,7 @@
     border-radius: 12px;
     border: solid 3px #0051ff97;
 }
-.temperature{
-    /* padding: 5px; */
-}
+
 .temperature>img{
     object-fit: cover;
     width: 35px;
