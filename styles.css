@@ -45,7 +45,7 @@
 }
 .currentWeather{
     padding: 10px;
-    display: flex;
+    /* display: flex; */
     align-items:center;
      /* margin: auto; */
     /* margin-bottom: 10px;  */
@@ -55,9 +55,9 @@
     border-radius: 12px;
     border: solid 3px #0051ff97;
 }
-.currentWeather>img{
-    margin-bottom: 10px;
-    
+.temperature>img{
+    object-fit: cover;
+    width: 35px;
 }
 .container{
     width: 90%;
